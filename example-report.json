@@ -1,0 +1,204 @@
+{
+  "schema_version": 1,
+  "input": {
+    "bytes": 122,
+    "sha256": "2e6f90f20a2296bcd5ae3f2d10633e009167c3cbb9594ca5dbae5a4be7e4d12a"
+  },
+  "scope": "Encoded MIDI1.0 positive Note-On velocities; no acoustic, force, timing-quality or hardware diagnosis.",
+  "smf_type": 1,
+  "ticks_per_quarter_note": 480,
+  "selection": {
+    "tracks_zero_based": [
+      0,
+      1,
+      2
+    ],
+    "channels_one_based": [
+      1
+    ],
+    "notes": null,
+    "positive_note_on_count_in_file": 9,
+    "selected_note_on_count": 6,
+    "excluded_positive_note_on_count": 3
+  },
+  "observed": {
+    "note_on_count": 6,
+    "minimum": 24,
+    "maximum": 120,
+    "mean": 68.0,
+    "median": 60.0,
+    "distinct_values": 5,
+    "velocity_histogram": [
+      {
+        "velocity": 24,
+        "count": 1
+      },
+      {
+        "velocity": 48,
+        "count": 2
+      },
+      {
+        "velocity": 72,
+        "count": 1
+      },
+      {
+        "velocity": 96,
+        "count": 1
+      },
+      {
+        "velocity": 120,
+        "count": 1
+      }
+    ]
+  },
+  "tracks": [
+    {
+      "track_index": 0,
+      "message_count": 13,
+      "positive_note_on_count": 6,
+      "end_tick": 720,
+      "selected": {
+        "note_on_count": 6,
+        "minimum": 24,
+        "maximum": 120,
+        "mean": 68.0,
+        "median": 60.0,
+        "distinct_values": 5,
+        "velocity_histogram": [
+          {
+            "velocity": 24,
+            "count": 1
+          },
+          {
+            "velocity": 48,
+            "count": 2
+          },
+          {
+            "velocity": 72,
+            "count": 1
+          },
+          {
+            "velocity": 96,
+            "count": 1
+          },
+          {
+            "velocity": 120,
+            "count": 1
+          }
+        ]
+      }
+    },
+    {
+      "track_index": 1,
+      "message_count": 5,
+      "positive_note_on_count": 2,
+      "end_tick": 240,
+      "selected": {
+        "note_on_count": 0,
+        "minimum": null,
+        "maximum": null,
+        "mean": null,
+        "median": null,
+        "distinct_values": 0,
+        "velocity_histogram": []
+      }
+    },
+    {
+      "track_index": 2,
+      "message_count": 3,
+      "positive_note_on_count": 1,
+      "end_tick": 120,
+      "selected": {
+        "note_on_count": 0,
+        "minimum": null,
+        "maximum": null,
+        "mean": null,
+        "median": null,
+        "distinct_values": 0,
+        "velocity_histogram": []
+      }
+    }
+  ],
+  "channels": [
+    {
+      "channel": 1,
+      "note_on_count": 6,
+      "minimum": 24,
+      "maximum": 120,
+      "mean": 68.0,
+      "median": 60.0,
+      "distinct_values": 5,
+      "velocity_histogram": [
+        {
+          "velocity": 24,
+          "count": 1
+        },
+        {
+          "velocity": 48,
+          "count": 2
+        },
+        {
+          "velocity": 72,
+          "count": 1
+        },
+        {
+          "velocity": 96,
+          "count": 1
+        },
+        {
+          "velocity": 120,
+          "count": 1
+        }
+      ]
+    }
+  ],
+  "notes": [
+    {
+      "midi_note": 60,
+      "label": "C4",
+      "note_on_count": 6,
+      "minimum": 24,
+      "maximum": 120,
+      "mean": 68.0,
+      "median": 60.0,
+      "distinct_values": 5,
+      "velocity_histogram": [
+        {
+          "velocity": 24,
+          "count": 1
+        },
+        {
+          "velocity": 48,
+          "count": 2
+        },
+        {
+          "velocity": 72,
+          "count": 1
+        },
+        {
+          "velocity": 96,
+          "count": 1
+        },
+        {
+          "velocity": 120,
+          "count": 1
+        }
+      ]
+    }
+  ],
+  "message_counts": {
+    "messages": 21,
+    "zero_velocity_note_on": 5,
+    "note_off": 4,
+    "pitchwheel": 0,
+    "sysex": 0
+  },
+  "warnings": [
+    "Jeder positive Note On zählt einmal. Lange Noten erhalten kein größeres Gewicht; Note On mit Velocity0 und Note Off sind keine Anschläge in dieser Statistik.",
+    "Velocity ist hier ein gespeicherter Zahlenwert, kein gemessener Schalldruck oder mechanischer Kraftwert.",
+    "Anschlagkurven, nachträgliche MIDI-Bearbeitung, Klangprogramme, Controller und Aftertouch werden nicht ausgewertet.",
+    "Gleiche oder unterschiedliche Verteilungen beweisen weder gleiche Spielweise noch einen Defekt. Es gibt keinen Sollbereich und keine automatische Reparaturempfehlung.",
+    "Notennamen: MIDI60=C4, internationale Kreuznamen; B entspricht deutschem H. Maßgeblich bleibt die MIDI-Nummer.",
+    "Keine MIDI-Ports, Wiedergabe, Netzwerkverbindung oder Änderung der Eingabedatei. UMP/MIDI2.0 und MIDI-Port-Metadaten sind nicht unterstützt."
+  ]
+}
